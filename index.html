@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection"><meta itemprop="name" content="一"><meta itemprop="image" content="/static/images/biglogo.jpg"><meta name="baidu-site-verification" content="QvGH8lCtl2">
+    <meta name="description" itemprop="description" content="-">
+    
+    <title>power-furture</title>
+  </head>
+  <script>
+    const Agents =[ "Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"]
+    let flag = false
+    Agents.forEach(_ => {
+      navigator.userAgent.includes(_) && (flag = true)
+    });
+    // navigator.userAgent
+    function resetFontSize() {
+        var baseFontSize = 100
+        var designWidth = 750
+        var width = window.innerWidth
+        var currentFontSize = (width / designWidth) * baseFontSize
+        document.getElementsByTagName('html')[0].style.fontSize = currentFontSize + 'px'
+    }
+    window.onresize = function () {
+      flag &&  resetFontSize()
+    };
+    flag &&  resetFontSize()
+</script>
+  <body class="bg-color" >
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

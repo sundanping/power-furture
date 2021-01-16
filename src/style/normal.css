@@ -1,0 +1,213 @@
+.bg-color{background: #00043f;}
+*{padding:0;margin:0;}
+.d-none {
+	display: none;
+}
+
+.d-inline {
+	display: inline;
+}
+
+.d-inline-block {
+	display: inline-block;
+}
+
+.d-block {
+	display: block;
+}
+
+.d-table {
+	display: table;
+}
+
+.d-table-cell {
+	display: table-cell;
+}
+
+.d-flex {
+	display: flex;
+}
+.d-flex-wrap {
+    display: flex;
+    flex:wrap;
+}
+.d-inline-flex {
+	display: inline-flex;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.fn {
+	float: none;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.d-hide {
+	display: none;
+}
+
+.d-show {
+	display: block;
+}
+
+.vertical-middle {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-h-center {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-v-center {
+	display: flex;
+	align-items: center;
+}
+
+.flex-v-right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.flex-no-grow {
+	flex-grow: 0;
+}
+
+.flex-no-shrink {
+	flex-shrink: 0;
+}
+
+.flex-two {
+	flex: 2;
+}
+
+.flex-one {
+	flex: 1;
+}
+.flex-one-left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start ;
+}
+.flex-one-left-v {
+	align-items: center;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start ;
+}
+.flex-one-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end  ;
+}
+.flex-one-right-v {
+	align-items: center;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end ;
+}
+.full-width {
+	width: 100%;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.d-disabled {
+	pointer-events: none;
+	cursor: default;
+}
+.text-left{
+	text-align: left;
+}
+.ellipsis {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.font-14 {
+	font-size: 14px ;
+}
+.font-12 {
+	font-size: 12px ;
+}
+.d-red{
+	color:red;
+}
+.d-relative {
+	position: relative;
+}
+
+.d-absolute {
+	position: absolute;
+}
+.d-fixed{
+	position: fixed;
+
+}
+.color-1989fa {
+	color: #1989fa;
+	cursor: pointer;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-50 {
+	flex: 0 0 50%;
+}
+
+.flex-33 {
+	flex: 0 0 33%;
+}
+/*fade-transform*/
+
+.fade-transform-leave-active{
+    transition: all .3s ease 0;
+}
+.fade-transform-enter-active {
+    transition: all 0.6s ease 0.6s;
+}
+.fade-transform-enter {
+    opacity: 0;
+    transform: translateX(100px);
+}
+.fade-transform-leave-to {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+.d-overfow-y-hidden{
+	overflow-y: hidden!important;
+}
+
+
+
+
